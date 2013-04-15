@@ -24,7 +24,7 @@ a{color:#002674}
 /* =Header
 ----------------------------------------------- */
 .header{
-	background:url(../../v2/i/header.png) repeat-x 0 0;
+	background:url(../i/header.png) repeat-x 0 0;
 	}
 	.header-in{
 		height:36px;
@@ -44,7 +44,7 @@ a{color:#002674}
 		display:block;
 		height:36px;
 		width:124px;
-		background:url(../../v2/i/vgorode.png) no-repeat 14px 6px;
+		background:url(../i/vgorode.png) no-repeat 14px 6px;
 		overflow:hidden;
 		}
 .nav,.nav li{
@@ -62,10 +62,10 @@ a{color:#002674}
 			text-decoration:none;
 			padding:0 16px 0 39px;
 			}
-		.nav li .n-news {background:url(../../v2/i/n-news.png) no-repeat 15px 50%;padding-left:41px;}
-		.nav li .n-afisha {background:url(../../v2/i/n-afisha.png) no-repeat 15px 40%;}
-		.nav li .n-guide {background:url(../../v2/i/n-guide.png) no-repeat 15px 40%;}
-		.nav li .n-map {background:url(../../v2/i/n-map.png) no-repeat 15px 50%;padding-left:34px;}
+		.nav li .n-news {background:url(../i/n-news.png) no-repeat 15px 50%;padding-left:41px;}
+		.nav li .n-afisha {background:url(../i/n-afisha.png) no-repeat 15px 40%;}
+		.nav li .n-guide {background:url(../i/n-guide.png) no-repeat 15px 40%;}
+		.nav li .n-map {background:url(../i/n-map.png) no-repeat 15px 50%;padding-left:34px;}
 		.nav a:hover, .h1 a:hover, .nav a.active,.header .h1 .active{
 			background-color:rgba(0,0,0,0.1);
 			}
@@ -92,7 +92,7 @@ a{color:#002674}
 		}
 		.snav .snav-other{
 			padding-right:14px;
-			background:url(../../v2/i/arrow.png) no-repeat 100% 40%;
+			background:url(../i/arrow.png) no-repeat 100% 40%;
 			}
 		.snav .snav-dropdown{
 			position:absolute;
@@ -205,10 +205,10 @@ a{color:#002674}
 		}
 		.t-current-city strong{
 			padding-right:11px;
-			background:url(../../v2/i/arrow-black.png) no-repeat 100% 50%;
+			background:url(../i/arrow-black.png) no-repeat 100% 50%;
 			}
 		.t-city:hover .t-current-city strong{
-			background-image:url(../../v2/i/arrow-black-up.png);
+			background-image:url(../i/arrow-black-up.png);
 			}	
 	.search{
 		width:405px;
@@ -224,7 +224,7 @@ a{color:#002674}
 			width:175px;
 			color:#666;
 			font-size:12px;
-			background:#fff url(../../v2/i/search.png) no-repeat 7px 50%;
+			background:#fff url(../i/search.png) no-repeat 7px 50%;
 			}
 		.search-categ{
 			position:relative;
@@ -250,7 +250,7 @@ a{color:#002674}
 			}
 			.search-categ span{
 				padding-right:12px;
-				background:url(../../v2/i/arrow-black.png) no-repeat 100% 50%;
+				background:url(../i/arrow-black.png) no-repeat 100% 50%;
 				}
 			.search-categ:hover .t-search-categs{
 				top:25px;
@@ -369,7 +369,7 @@ a{color:#002674}
 		border-color:#62665c;
 	}
 .header-footer .h1 a{
-	background:#1e1f1d url(../../v2/i/f-h1.png) no-repeat 14px 6px;
+	background:#1e1f1d url(../i/f-h1.png) no-repeat 14px 6px;
 }
 
 .footer .form{
@@ -469,7 +469,7 @@ a{color:#002674}
 			{
 				color:#2c6920;
 				height:16px;
-				/*background:url(../../v2/i/vko.png) no-repeat 11px 40%;*/
+				/*background:url(../i/vko.png) no-repeat 11px 40%;*/
 				/*padding-left:33px;*/
 			}
 			
@@ -500,7 +500,7 @@ left:100px;
 		right:11px;
 		width:10px;
 		height:10px;
-		background:url(../../v2/i/close.png) no-repeat 0 0;
+		background:url(../i/close.png) no-repeat 0 0;
 	}
 	.l-social{
 		float:left;

@@ -17,7 +17,7 @@ body{
 		}
 	.cols{
 		border-top:1px solid #ccc;
-		background:url(../../v2/i/dot.png) repeat-y 659px 0;
+		background:url(../i/dot.png) repeat-y 659px 0;
 		width:100%;
         display:table;
 		}

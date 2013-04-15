@@ -34,10 +34,10 @@
 			height:36px;
 			bottom:2px;
 			left:2px;
-			background:url(../../v2/i/i-foto.png) no-repeat 0 100%;
+			background:url(../i/i-foto.png) no-repeat 0 100%;
 			}
 			.newslist-pic i.i-video{
-				background:url(../../v2/i/i-video.png) no-repeat 0 100%;
+				background:url(../i/i-video.png) no-repeat 0 100%;
 			}
 			.newslist-pic .i-icons{
 				position:absolute;
@@ -71,7 +71,7 @@
 	}
 	.newslist-more li{
 		padding-left:10px;
-		background:url(../../v2/i/bul.png) no-repeat 0 .45em;
+		background:url(../i/bul.png) no-repeat 0 .45em;
 		font-size:12px;
 		margin-bottom:3px;
 		}
@@ -136,7 +136,7 @@
 			color:green;
 			padding:2px 0 2px 14px;
 			font-weight:bold;
-			background:url(../../v2/i/up.png) no-repeat 0 50%;
+			background:url(../i/up.png) no-repeat 0 50%;
 			display:inline-block;
 			margin-left:5px;
 			}
@@ -149,7 +149,7 @@
 		color:#2c6920;
 		text-decoration:none;
 		padding-right:14px;
-		background:url(../../v2/i/green-arrow-right.png) no-repeat 100% 50%;
+		background:url(../i/green-arrow-right.png) no-repeat 100% 50%;
 		}
 .loadmore{
 	cursor:pointer;
@@ -177,10 +177,10 @@
 		text-decoration:none;
 		font-weight:bold;
 		padding-right:13px;
-		background:url(../../v2/i/down-arr.png) no-repeat 100% 50%;
+		background:url(../i/down-arr.png) no-repeat 100% 50%;
 		}
 	.loadmorea{
-		background: url(../../v2/i/button__loading.gif) repeat-x 0 100%;
+		background: url(../i/button__loading.gif) repeat-x 0 100%;
 	}
 		
 /* post
@@ -209,7 +209,7 @@
 			width:9px;
 			height:7px;
 			display:inline-block;
-			background:url(../../v2/i/arr.png) no-repeat 0 0;
+			background:url(../i/arr.png) no-repeat 0 0;
 			vertical-align:middle;
 			top:-3px;
 			position:relative;
@@ -251,7 +251,7 @@
 			.hr{
 				margin:2.5em 0;
 				height:2px;
-				background:url(../../v2/i/hr.png) no-repeat 50% 0;
+				background:url(../i/hr.png) no-repeat 50% 0;
 				}
 	.post-meta{
 		width:100%;
@@ -300,7 +300,7 @@
 			font-style:italic;
 			color:#2a794a;
 			margin:2em 0;
-			background:url(../../v2/i/q.png) no-repeat 60px 0;
+			background:url(../i/q.png) no-repeat 60px 0;
 			}
 			.post .bq-lite{
 				padding-left:40px;
@@ -426,7 +426,7 @@
 					float:right;
 					clear:right;
 					text-align:left;
-					/*background:url(../../v2/i/up.png) no-repeat 0 50%;*/
+					/*background:url(../i/up.png) no-repeat 0 50%;*/
 					white-space:nowrap;
 					}
 					.comment-act a i{
@@ -435,7 +435,7 @@
 						font-weight:bold;
 					}
 					.comment-act a.down{
-						/*background:url(../../v2/i/down.png) no-repeat 0 50%;*/
+						/*background:url(../i/down.png) no-repeat 0 50%;*/
 					}
 					.comment-act a.down i{
 						color:#c00;
@@ -450,7 +450,7 @@
 	margin-left:-10px;
 	overflow:hidden;
 	margin-right:-1px;
-	background:url(../../v2/i/dot.png) repeat-y 50% 0;
+	background:url(../i/dot.png) repeat-y 50% 0;
 	border-bottom:1px solid #ccc;
 	}
 	.konkurs-places .hr{
@@ -634,13 +634,13 @@
 		background:green;
 		cursor:pointer;
 		
-		background: #f8fcf4 url(../../v2/i/next.png) no-repeat 50% 50%;
-		background: url(../../v2/i/next.png) no-repeat 50% 50%,-moz-linear-gradient(top, #f8fcf4 43%, #cbe5b0 58%, #cbe5b0 100%);
-		background: url(../../v2/i/next.png) no-repeat 50% 50%,-webkit-gradient(linear, left top, left bottom, color-stop(43%,#f8fcf4), color-stop(58%,#cbe5b0), color-stop(100%,#cbe5b0));
-		background: url(../../v2/i/next.png) no-repeat 50% 50%,-webkit-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
-		background: url(../../v2/i/next.png) no-repeat 50% 50%,-o-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
-		background: url(../../v2/i/next.png) no-repeat 50% 50%,-ms-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
-		background: url(../../v2/i/next.png) no-repeat 50% 50%,linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+		background: #f8fcf4 url(../i/next.png) no-repeat 50% 50%;
+		background: url(../i/next.png) no-repeat 50% 50%,-moz-linear-gradient(top, #f8fcf4 43%, #cbe5b0 58%, #cbe5b0 100%);
+		background: url(../i/next.png) no-repeat 50% 50%,-webkit-gradient(linear, left top, left bottom, color-stop(43%,#f8fcf4), color-stop(58%,#cbe5b0), color-stop(100%,#cbe5b0));
+		background: url(../i/next.png) no-repeat 50% 50%,-webkit-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+		background: url(../i/next.png) no-repeat 50% 50%,-o-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+		background: url(../i/next.png) no-repeat 50% 50%,-ms-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+		background: url(../i/next.png) no-repeat 50% 50%,linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
 		
 		
 
@@ -649,13 +649,13 @@
 		.k-caro-prev{
 			position:absolute;
 			right:28px;
-			background: #f8fcf4 url(../../v2/i/prev.png) no-repeat 50% 50%;
-			background: url(../../v2/i/prev.png) no-repeat 50% 50%,-moz-linear-gradient(top, #f8fcf4 43%, #cbe5b0 58%, #cbe5b0 100%);
-			background: url(../../v2/i/prev.png) no-repeat 50% 50%,-webkit-gradient(linear, left top, left bottom, color-stop(43%,#f8fcf4), color-stop(58%,#cbe5b0), color-stop(100%,#cbe5b0));
-			background: url(../../v2/i/prev.png) no-repeat 50% 50%,-webkit-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
-			background: url(../../v2/i/prev.png) no-repeat 50% 50%,-o-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
-			background: url(../../v2/i/prev.png) no-repeat 50% 50%,-ms-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
-			background: url(../../v2/i/prev.png) no-repeat 50% 50%,linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+			background: #f8fcf4 url(../i/prev.png) no-repeat 50% 50%;
+			background: url(../i/prev.png) no-repeat 50% 50%,-moz-linear-gradient(top, #f8fcf4 43%, #cbe5b0 58%, #cbe5b0 100%);
+			background: url(../i/prev.png) no-repeat 50% 50%,-webkit-gradient(linear, left top, left bottom, color-stop(43%,#f8fcf4), color-stop(58%,#cbe5b0), color-stop(100%,#cbe5b0));
+			background: url(../i/prev.png) no-repeat 50% 50%,-webkit-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+			background: url(../i/prev.png) no-repeat 50% 50%,-o-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+			background: url(../i/prev.png) no-repeat 50% 50%,-ms-linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
+			background: url(../i/prev.png) no-repeat 50% 50%,linear-gradient(top, #f8fcf4 43%,#cbe5b0 58%,#cbe5b0 100%);
 			
 			}
 			.k-caro-next:active,.k-caro-prev:active{
@@ -705,7 +705,7 @@
 			.k-vote span{
 				float:right;
 				padding:8px 10px 8px 35px;
-				background:url(../../v2/i/thumbsup.png) no-repeat 5px 50%;
+				background:url(../i/thumbsup.png) no-repeat 5px 50%;
 				}
 			.k-vote:hover{
 				background: #b1dc95;
