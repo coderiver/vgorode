@@ -1,0 +1,27 @@
+.tours{
+	margin:15px 0 10px 3px;
+}
+
+.tour{
+	float:left;
+	margin:0 14px 14px 0;
+	position:relative;
+	color:#fff;
+	text-decoration:none;
+	font-size:13px;
+	}
+	.tour img{
+		float:left;
+		}
+		.tour p{
+			position:absolute;
+			bottom:0;
+			left:0;
+			right:0;
+			padding:5px;
+			color:#fff;
+			background:rgba(0,0,0,0.6);
+			}
+
+.alt{ position:relative; right:7px; }
+.alt .tour{ float:right; }

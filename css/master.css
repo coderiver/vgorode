@@ -1,0 +1,20 @@
+/*
+-----------------------------------------------
+Site Screen Master
+Author:   akella at http://cssing.org.ua
+Version:  1 sep 2009
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("layout.css");
+@import url("base.css");
+@import url("afisha.css");
+@import url("main.css");
+@import url("guide.css");
+@import url("news.css");
+@import url("static.css");
+@import url("style2.css");
+@import url("tour.css");
+@import url("update.css");
+@import url("reklama.css");
