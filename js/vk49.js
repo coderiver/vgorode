@@ -1,0 +1,1 @@
+﻿VK.init({ apiId: 2881879, onlyWidgets: true });
