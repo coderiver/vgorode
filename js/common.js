@@ -254,7 +254,7 @@ function validate_answer() {
 
 $(document).ready(function () {
     if ($('.scrollable.selected-news').length != 0) {
-        $('.scrollable.selected-news').tinyscrollbar({ sizethumb: 245, size: 600 });
+        $('.scrollable.selected-news').tinyscrollbar({ sizethumb: 245, size: 533 });
     }
 
     if ($('.scrollable.g-side').length != 0) {
