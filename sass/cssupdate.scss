@@ -289,3 +289,14 @@
 		}
 	}
 }
+.distance{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 1px;
+	cursor: pointer;
+	&.distance_active{
+		color: #008A2D;
+		font-size: 17px;
+
+	}
+}

@@ -69,3 +69,6 @@
 .g-detail .g-detail__details dl dd { width: 167px; vertical-align: middle; display: inline-block; }
 .g-detail .g-detail__details dl small { font-size: 10px; color: #7F8791; }
 .g-detail .g-detail__details dl span { color: #A6919B; }
+
+.distance { font-size: 14px; font-weight: normal; margin: 0 1px; cursor: pointer; }
+.distance.distance_active { color: #008A2D; font-size: 17px; }
