@@ -50,3 +50,22 @@
 .cr-citynews .cr-col ul li strong { display: block; }
 .cr-citynews .cr-more { text-align: right; font-size: 10px; text-decoration: none; margin-top: 8px; }
 .cr-citynews .cr-more a { text-decoration: none; color: #444; }
+
+.guide__header { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe692), color-stop(100%, #ffc349)); background-image: -webkit-linear-gradient(#ffe692, #ffc349); background-image: -moz-linear-gradient(#ffe692, #ffc349); background-image: -o-linear-gradient(#ffe692, #ffc349); background-image: -ms-linear-gradient(#ffe692, #ffc349); background-image: linear-gradient(#ffe692, #ffc349); border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; padding: 8px 0 8px 22px; position: relative; }
+.guide__header .guide__headerclose { position: absolute; right: 10px; top: 7px; background: white url(../i/close.png) no-repeat 50% 50%; width: 15px; height: 15px; cursor: pointer; }
+
+.g-detail { width: 310px; position: absolute; left: 224px; top: 0; bottom: 0; z-index: 1000; background: #fff; }
+.g-detail h2 { font-size: 18px; font-weight: normal; margin-bottom: 10px; }
+.g-detail h2 span { display: block; color: #898989; font-size: 12px; }
+.g-detail .g-detail__wrap { padding: 10px; }
+.g-detail .g-detail__also { margin-top: 30px; }
+.g-detail .g-detail__also h3 { font-weight: normal; font-size: 12px; text-transform: uppercase; color: #333; margin-bottom: 10px; padding: 0; }
+.g-detail .g-detail__also ul { margin-left: 10px; list-style: none; }
+.g-detail .g-detail__also ul li { padding: 5px 0; border-bottom: 1px solid #EDEDED; }
+.g-detail .g-detail__also ul a { text-decoration: none; font-size: 11px; }
+.g-detail .g-detail__details { margin: 10px 0 0 0; }
+.g-detail .g-detail__details dl { padding-left: 4px; margin-bottom: 6px; }
+.g-detail .g-detail__details dl dt { min-width: 84px; display: inline-block; vertical-align: middle; }
+.g-detail .g-detail__details dl dd { width: 167px; vertical-align: middle; display: inline-block; }
+.g-detail .g-detail__details dl small { font-size: 10px; color: #7F8791; }
+.g-detail .g-detail__details dl span { color: #A6919B; }
