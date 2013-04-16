@@ -163,22 +163,44 @@
 	margin: 24px 0px 0px 9px;
 	h1{
 		margin-bottom: 12px;
+		font-size: 24px;
+		font-weight: normal;
 	}
 	h3{
-		padding-bottom: 12px;
-		border-bottom: 1px solid #ccc;
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: normal;
+		margin-bottom: 10px;
 	}
-	.cr-col-left{
+	.cr-col{
 		float: left;
-		width: 33%;
+		width: 31%;
 		margin-right: 20px;
+		margin-bottom: 20px;
+		ul{
+			list-style: none;
+			border-top: 1px solid #D5D5D5;
+			li{
+				padding: 8px 0;
+				border-bottom: 1px solid #D5D5D5;
+				a{
+					color: #666563;
+					text-decoration: none;
+				}
+				strong{
+					display: block;
+				}
+			}
+		}
 	}
-	.cr-col-mid{
-		float: left;
-		width: 33%;
-	}
-	.cr-col-right{
-		float: right;
-		width: 33%;
+	.cr-more{
+		text-align: right;
+		font-size: 10px;
+		text-decoration: none;
+		margin-top: 8px;
+		a{
+			text-decoration: none;
+			color: #444;
+		}
 	}
 }
