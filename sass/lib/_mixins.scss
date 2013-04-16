@@ -29,13 +29,13 @@ $break-large: 1180px;
 }
 
 // TRANSITION
-@mixin transition($what) {
-	-moz-transition:    %what;
-	-o-transition:      %what;
-	-webkit-transition: %what;
-	-ms-transition:     %what;
-	transition:         %what;
-}
+// @mixin transition($what) {
+// 	-moz-transition:    %what;
+// 	-o-transition:      %what;
+// 	-webkit-transition: %what;
+// 	-ms-transition:     %what;
+// 	transition:         %what;
+// }
 %hide-text{
 	font: 0/0 a;
 	text-shadow: none;

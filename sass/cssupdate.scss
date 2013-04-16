@@ -1,1 +1,57 @@
 @import "lib/base";
+
+.cr-content{
+	padding: 15px 21px 9px 9px;
+}
+.cr-item_name{
+		margin: 9px 0px;
+	}
+.cr-general-info{
+	float:left;
+	width: 292px;
+	margin: 0px 9px;
+	table{
+		margin-left: -9px;
+	}
+	.cr-logo{
+		margin: 18px 0px 22px;
+	}
+	.cr-item_info{
+		width: 100%;
+		margin: 0px 0px 23px;
+		th{
+			width: 91px;
+			height: 19px;
+		}
+		span{
+			color: #9b999c;
+		}
+	}
+	.cr-slogan{
+		height: 130px;
+		background-color: #ccc; 
+	}
+}
+.cr-map_search{
+	float: right;
+	margin-bottom: 12px;
+}
+.cr-item_descr{
+	clear: both;
+	margin: 0px 0px 12px 9px;
+	height: 351px;
+	background-color: #ccc;
+}
+.cr-related{
+	margin-top: 24px;
+	padding-left: 10px;
+	h1{
+		margin-bottom: 10px;
+	}
+}
+.cr-r-caro{
+	height: 158px;
+	.r-item_text{
+		padding: 10px 5px 5px;
+	}
+}
