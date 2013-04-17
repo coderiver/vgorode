@@ -39,7 +39,7 @@
 
 
 .cr-content{
-	padding: 15px 21px 9px 9px;
+	padding: 15px 21px 16px 9px;
 }
 .cr-item_name{
 		margin: 9px 0px;
@@ -128,12 +128,23 @@
 	height: 351px;
 	background-color: #ccc;
 }
+.cr-item_descr2{
+	width: 931px;
+	clear: both;
+	margin: 22px 0px 12px 6px;
+	height: 351px;
+	background-color: #ccc;
+}
 .cr-related{
 	margin-top: 24px;
 	padding-left: 10px;
 	h1{
 		margin-bottom: 10px;
 	}
+}
+.cr-related2{
+	margin-top: 0px;
+	padding-left: 10px;
 }
 .cr-r-caro{
 	height: 158px;
@@ -299,4 +310,8 @@
 		font-size: 17px;
 
 	}
+}
+.cr-wrapper{
+	padding-left: 9px;
+	padding-bottom: 16px;
 }

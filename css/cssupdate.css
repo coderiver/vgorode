@@ -1,10 +1,10 @@
 .cr-viewed { float: right; text-align: right; position: relative; top: -20px; z-index: 100; }
-.cr-viewed .cr-viewed__button { cursor: pointer; display: inline-block; border: 1px solid #666C61; height: 23px; line-height: 23px; padding: 0 10px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #e5e5e5)); background-image: -webkit-linear-gradient(#f4f4f4, #e5e5e5); background-image: -moz-linear-gradient(#f4f4f4, #e5e5e5); background-image: -o-linear-gradient(#f4f4f4, #e5e5e5); background-image: -ms-linear-gradient(#f4f4f4, #e5e5e5); background-image: linear-gradient(#f4f4f4, #e5e5e5); }
+.cr-viewed .cr-viewed__button { cursor: pointer; display: inline-block; border: 1px solid #666C61; height: 23px; line-height: 23px; padding: 0 10px; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #e5e5e5)); background-image: -webkit-linear-gradient(#f4f4f4, #e5e5e5); background-image: -moz-linear-gradient(#f4f4f4, #e5e5e5); background-image: -o-linear-gradient(#f4f4f4, #e5e5e5); background-image: linear-gradient(#f4f4f4, #e5e5e5); }
 .cr-viewed .cr-viewed__drop { position: absolute; right: 0; top: 23px; border: 1px solid #7E7F7A; width: 480px; padding: 10px; background: #fff; text-align: left; }
 .cr-viewed .cr-viewed__drop h3 { font-weight: normal; margin-bottom: 14px; font-size: 12px; color: #242424; }
 .cr-viewed .cr-viewed__drop .topnews a { text-decoration: none; color: #244783; }
 
-.cr-content { padding: 15px 21px 9px 9px; }
+.cr-content { padding: 15px 21px 16px 9px; }
 
 .cr-item_name { margin: 9px 0px; }
 
@@ -27,13 +27,17 @@
 
 .cr-item_descr { clear: both; margin: 0px 0px 12px 9px; height: 351px; background-color: #ccc; }
 
+.cr-item_descr2 { width: 931px; clear: both; margin: 22px 0px 12px 6px; height: 351px; background-color: #ccc; }
+
 .cr-related { margin-top: 24px; padding-left: 10px; }
 .cr-related h1 { margin-bottom: 10px; }
+
+.cr-related2 { margin-top: 0px; padding-left: 10px; }
 
 .cr-r-caro { height: 158px; }
 .cr-r-caro .r-item_text { padding: 10px 5px 5px; }
 
-.cr-news { border-bottom: none!important; }
+.cr-news { border-bottom: none !important; }
 
 .cr-afisha { overflow: hidden; margin: 24px 0px 0px 9px; }
 .cr-afisha .cr-hgroup-sub { padding-left: 10px; margin-bottom: 18px; }
@@ -51,7 +55,7 @@
 .cr-citynews .cr-more { text-align: right; font-size: 10px; text-decoration: none; margin-top: 8px; }
 .cr-citynews .cr-more a { text-decoration: none; color: #444; }
 
-.guide__header { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe692), color-stop(100%, #ffc349)); background-image: -webkit-linear-gradient(#ffe692, #ffc349); background-image: -moz-linear-gradient(#ffe692, #ffc349); background-image: -o-linear-gradient(#ffe692, #ffc349); background-image: -ms-linear-gradient(#ffe692, #ffc349); background-image: linear-gradient(#ffe692, #ffc349); border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; padding: 8px 0 8px 22px; position: relative; }
+.guide__header { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe692), color-stop(100%, #ffc349)); background-image: -webkit-linear-gradient(#ffe692, #ffc349); background-image: -moz-linear-gradient(#ffe692, #ffc349); background-image: -o-linear-gradient(#ffe692, #ffc349); background-image: linear-gradient(#ffe692, #ffc349); border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; padding: 8px 0 8px 22px; position: relative; }
 .guide__header .guide__headerclose { position: absolute; right: 10px; top: 7px; background: white url(../i/close.png) no-repeat 50% 50%; width: 15px; height: 15px; cursor: pointer; }
 
 .g-detail { width: 310px; position: absolute; left: 224px; top: 0; bottom: 0; z-index: 1000; background: #fff; }
@@ -72,3 +76,5 @@
 
 .distance { font-size: 14px; font-weight: normal; margin: 0 1px; cursor: pointer; }
 .distance.distance_active { color: #008A2D; font-size: 17px; }
+
+.cr-wrapper { padding-left: 9px; padding-bottom: 16px; }
