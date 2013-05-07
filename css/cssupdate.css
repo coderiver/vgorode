@@ -78,3 +78,63 @@
 .distance.distance_active { color: #008A2D; font-size: 17px; }
 
 .cr-wrapper { padding-left: 9px; padding-bottom: 16px; }
+
+.top-menu { padding: 0 10px; font-size: 10px; font-weight: bold; list-style-type: none; overflow: hidden; border-bottom: 1px solid #ccc; }
+.top-menu li { float: left; padding: 0 8px; }
+.top-menu .top-menu_active { font-size: 12px; color: #000; }
+.top-menu a { line-height: 37px; color: #2c6920; text-transform: uppercase; text-decoration: none; }
+.top-menu a:hover { text-decoration: underline; }
+
+.post_float { overflow: hidden; margin-left: 0px; }
+
+.post__sidebar { float: right; clear: right; width: 320px; box-sizing: border-box; margin: -15px -10px 0 10px; padding: 20px 9px 14px; text-align: center; border: 1px solid #ccc; border-top: none; }
+.post__sidebar .sidebar__banner { margin-bottom: 15px; }
+
+.sidebar__social-plagin { float: left; }
+.sidebar__social-plagin:first-child { margin-right: 20px; }
+
+.post-meta_inline { display: inline; overflow: hidden; }
+
+.post__print { padding: 10px 0 0 20px; }
+.post__print a { display: inline-block; width: 18px; height: 18px; background: url(../i/print.png) 0% 0% no-repeat; }
+
+.post__item { text-align: center; }
+.post__item .post__text { margin-top: 10px; font-weight: bold; text-align: center; }
+.post__item .poster { overflow: hidden; margin-top: 15px; }
+
+.post p { text-align: justify; }
+.post p span { font-weight: bold; }
+
+.link-to-map { display: inline-block; text-decoration: none; padding-left: 15px; font-weight: bold; background: url(../i/dotdarkgreen-small.png) 0 0 no-repeat; }
+
+.post__author-name { text-align: center; text-transform: uppercase; margin: 20px 0 0 0; }
+.post__author-name .author-name-link { text-transform: uppercase; font-size: 12px; color: #002674; }
+.post__author-name a { display: inline-block; padding-left: 16px; font-size: 10px; text-transform: none; text-decoration: none; color: #bdbcbc; background: url(../i/author.png) 0% 23% no-repeat; }
+.post__author-name a:hover { text-decoration: underline; }
+
+.post__description { text-align: left; }
+
+.post__item_first { text-align: left; overflow: hidden; margin: 40px 0px; }
+.post__item_first .news__col { float: left; width: 49%; }
+.post__item_first .news__col article { font-size: 14px; text-align: justify; }
+.post__item_first .news__col:first-child { padding-right: 10px; }
+.post__item_first .news__col h1 { margin-bottom: 20px; }
+.post__item_first .news__col h3 { margin-bottom: 20px; }
+.post__item_first .news__col .news__picture { overflow: hidden; text-align: center; margin-bottom: 20px; }
+.post__item_first .news__col .news__picture img { margin-bottom: 10px; }
+.post__item_first .news__col span { display: block; text-align: left; font-size: 11px; color: #9c9b9b; }
+
+.list-news { text-align: left; padding: 5px 0; }
+.list-news h4 { text-transform: uppercase; padding-bottom: 10px; }
+.list-news ul { list-style-type: none; }
+.list-news li { border-top: 1px solid #ccc; }
+.list-news a { line-height: 31px; text-decoration: none; color: #9c9b9b; }
+
+.mapping { margin-bottom: 40px; }
+.mapping h1 { text-align: center; }
+.mapping .mapping__info { margin-top: 30px; }
+.mapping .mapping__info h4 { text-transform: uppercase; }
+.mapping .mapping__info .mapping__name { padding: 10px 0 0 40px; margin: 10px 0 0 10px; background: url(../i/dotdarkgreen.png) 0 0 no-repeat; color: #9c9b9b; }
+.mapping .mapping__info .mapping__name span { display: block; padding-top: 5px; color: #000; }
+.mapping .mapping__info .mapping__name span a { text-decoration: none; }
+.mapping .mapping__info .mapping__link { display: inline-block; margin-right: 5px; text-decoration: none; font-weight: bold; font-size: 14px; }
