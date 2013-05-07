@@ -144,7 +144,7 @@
 
 .container p.bc_mod { font-size: 12px; }
 
-.post__image { float: right; clear: right; }
+.post__image { float: right; clear: right; margin-left: 10px; }
 
 .afisha-item__descr { text-align: center; }
 
