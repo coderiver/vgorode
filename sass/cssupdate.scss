@@ -544,6 +544,10 @@
 }
 .afisha-item__descr{
 	text-align: center;
+	a{
+		text-decoration: underline !important;
+		color: #0F489D;
+	}
 }
 .event-position{
 	overflow: hidden;

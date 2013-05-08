@@ -148,6 +148,7 @@
 .post__image { float: right; clear: right; margin-left: 10px; }
 
 .afisha-item__descr { text-align: center; }
+.afisha-item__descr a { text-decoration: underline !important; color: #0F489D; }
 
 .event-position { overflow: hidden; }
 .event-position div { float: left; }
