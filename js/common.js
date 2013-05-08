@@ -69,6 +69,15 @@ jQuery.fn.hint = function() {
 
 $(document).ready(function () {
 
+
+$('.akella-wrap__shadow').click(function (e) {
+    $(this).parent().addClass('is-opened');
+});
+$('.cr-slide_right').click(function (e) {
+    $(this).parent().removeClass('is-opened');
+});
+
+
     // k-scrollable init
     $(".k-caro").scrollable({
         speed: 400,
