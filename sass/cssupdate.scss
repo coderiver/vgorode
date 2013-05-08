@@ -400,6 +400,10 @@
 	.poster{
 		overflow: hidden;
 		margin-top: 15px;
+		img{
+			width: 100%;
+			display: block;
+		}
 	}
 }
 .post p{
