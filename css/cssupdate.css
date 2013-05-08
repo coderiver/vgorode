@@ -103,8 +103,8 @@
 
 .post__item { text-align: center; }
 .post__item .post__text { margin-top: 10px; font-weight: bold; text-align: center; }
-.post__item .poster { overflow: hidden; margin-top: 15px; }
-.post__item .poster img { width: 100%; display: block; }
+.post__item .poster { overflow: hidden; margin-top: 15px; background: #000; text-align: center; }
+.post__item .poster img { max-width: 100%; display: block; margin: 0 auto; }
 
 .post p { text-align: justify; }
 .post p span { font-weight: bold; }
