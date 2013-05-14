@@ -185,3 +185,11 @@
 .selected-item-cat { background-image: url("../v2/i/cat-active-v2.png"); background-position: left center; background-repeat: no-repeat; color: black; font-weight: bold; padding-left: 15px; }
 
 .mapw { position: relative; }
+
+.topper_reference .search { width: 470px; }
+.topper_reference .t-ass { position: relative; top: -4px; }
+.topper_reference .search-keyword { width: 340px; }
+.topper_reference .search-categ { display: none; }
+.topper_reference #ctl00_ucSubHeader1_btnSearch2 { margin-left: 10px; }
+
+.t-ass__addcompany { display: inline-block; background: #FEFADB; font-size: 11px; border: 1px solid #696C5E; padding: 8px 10px; line-height: 1; color: #010200; text-decoration: none; vertical-align: middle; }

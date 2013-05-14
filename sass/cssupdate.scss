@@ -668,3 +668,35 @@
     {
         position: relative;
     }
+
+
+//     update reference header
+.topper_reference{
+	.search{
+		width: 470px;
+	}
+	.t-ass{
+		position: relative;
+		top: -4px;
+	}
+	.search-keyword{
+		width: 340px;
+	}
+	.search-categ{
+		display: none;
+	}
+	#ctl00_ucSubHeader1_btnSearch2{
+		margin-left: 10px;
+	}
+}
+.t-ass__addcompany{
+	display: inline-block;
+	background: #FEFADB;
+	font-size: 11px;
+	border: 1px solid #696C5E;
+	padding: 8px 10px;
+	line-height: 1;
+	color: #010200;
+	text-decoration: none;
+	vertical-align: middle;
+}
