@@ -504,8 +504,72 @@
 }
 .mapping{
 	margin-bottom: 40px;
+	z-index:1;
 	h1{
 		text-align: center;
+	}
+	.mapping__map{
+		position: relative;
+		.l-mapping__popup{
+			position: absolute;
+			top: 369px;
+			left: 514px;
+			&:after{
+				content: "";
+				position: absolute;
+				z-index: 0;
+				left: -75px;
+				bottom: 1px;
+				width: 100%;
+				height: 34%;
+				-webkit-box-shadow: 80px 4px 3px rgba(0, 0, 0, 0.3);
+				-moz-box-shadow: 80px 4px 3px rgba(0, 0, 0, 0.3);
+				box-shadow: 80px 4px 3px rgba(0, 0, 0, 0.3);
+				-webkit-transform: skew(145deg);
+				-moz-transform: skew(145deg);
+				-ms-transform: skew(145deg);
+				-o-transform: skew(145deg);
+				transform: skew(145deg);
+				-webkit-transform-origin: 0 100%;
+				-moz-transform-origin: 0 100%;
+				-ms-transform-origin: 0 100%;
+				-o-transform-origin: 0 100%;
+				transform-origin: 0 100%;
+			}
+		}
+		.mapping__popup{
+			position: relative;
+			width: 251px;
+			height: 73px;
+			padding: 27px 20px;
+			z-index: 9;
+			@include border-radius(4px);
+			border: 1px solid #ccc;
+			background: #fff;
+			font: 13px "Arial", sans-serif;
+			
+			.mapping__close{
+				position: absolute;
+				top: 5px;
+				right: 5px;
+				width: 20px;
+				height: 20px;
+				border: 1px solid #606060;
+				@include border-radius(11px);
+				background: url(../i/popup-close.png) 50% 46% no-repeat;
+			}
+			.mapping__triangle{
+				position: absolute;
+				bottom: -21px;
+				left: 143px;
+				width: 20px;
+				height: 21px;
+				background: url(../i/triangle-popup.png) 0% 0% no-repeat;
+			}
+			.mapping__title{
+				font-weight: bold;
+			}
+		}
 	}
 	.mapping__info{
 		margin-top: 30px;
