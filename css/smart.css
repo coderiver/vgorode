@@ -1,431 +1,108 @@
-﻿@media screen and (max-width: 800px) {
-	body{
-		width:400px;
-	}
-	*{-webkit-text-size-adjust:none;}
-	
-	.header .nav{
-		
-	}
-	
-	.header-in,
-	.out,
-	.topper,
-	.news,
-	.col1,
-	.col2,
-	.footer .footer-in
-	{
-		width:auto;
-		float:none;
-		display:block;
-	}
-	.footer .footer-in{
-		padding-top:6px;
-	}
-	.c{
-		overflow:auto;
-	}
-	
-	.header-in{
-		height:auto;
-		
-	}
-	.header{
-		background-color:#4f5449;
-	}
-	.header-in{
-		overflow:hidden;
-	}
-
-	.header-in h1,.header-in ul,.header-in a,.header-in li{
-		display:inline-block;
-	}
-	.header-in .h1{
-		float:none;
-		display:block;
-		text-align:center;
-		width:auto;
-	}
-	.header-in .h1 a{
-		display:inline-block;
-		border:none;
-	}
-	.nav a{
-		font-size:15px;
-		border:none;
-	}
-	.header-in .nav{
-		display:inline;
-	}
-	.nav, .nav li{
-		float:none;
-	}
-	
-	.header-in .nav li{
-		float:none;
-	}
-	.header-in .nav{
-		display:block;
-		
-	}
-	.a-item-text{
-		
-	}
-	.a-item-text h4{
-		font-size:14px;
-	}
-	
-
-
-	center,
-	.header .header-in .snav,
-	.t-ass,
-	.a-item-text p,
-		.col2>span,
-		.social,
-		#NM810,
-		.f-copy,
-		.footer-in .search,
-		iframe,
-		.search-categ,
-		.cnav2,
-		.cnav2
-	{
-		display:none; 
-	}
-	.search-categ{
-		display:none  !important;
-	}
-
-
-	.f-city{
-		float:none;
-		text-align:left;
-	}
-	.f-counters{
-		position:absolute;
-		left:-300px;
-	}
-	.cols {
-		background:trasparent;
-	}
-	
-	
-	
-	.a-item-text{
-		width:167px;
-	}
-	/* header
-	---------------------------------------- */
-	.search-keyword {
-		width:120px;
-		margin:0;
-	}
-	.search{
-		width:235px;
-		margin-right:0;
-	}
-	.search div{
-		display:inline;
-	}
-	/* news content
-	---------------------------------------- */
-	.news-content img{
-		width:200px;
-	}
-	.news-content{
-		margin-right:10px;
-	}
-	.news .c{
-		overflow:visible;
-	}
-	.megaspecial{
-		overflow:hidden;
-	}
-	.news-content .c{
-		overflow:visible  !important;
-	}
-
-	.topnews{
-		clear:both;
-		}
-	.afisha-slide{
-		width:auto;
-		position:static;
-		float:none;
-	}
-	.a-item {
-		display:inline-block;
-		width:180px;
-		overflow:hidden;
-	}
-	.cols{
-		display:block;
-	}
-	.hgroup-sub{
-		white-space:normal;
-		font-size:14px !important;
-	}
-	.spectema{
-		font-size:13px;
-	}
-	.newslist-related h3{
-		font-size:16px;
-	}
-	.newslist-related .newslist-top{
-		font-size:14px;
-	}
-	.s-switcher1 li a{
-		font-size:15px;
-	}
-	.hgroup-sub2,p.hgroup-sub2 a{
-		font-size:15px  !important;
-	}
-	.rasp .seansi td, .rasp .seansi th {
-		font-size:16px;
-	}
-	.afisha-cal h2{
-		font-size:19px;
-	}
-	.post .bc{
-		font-size:15px;
-	}
-	.newslist-more li{
-		font-size:14px;
-	}
-	.post-terminal-info table td,.post-terminal-info table th{
-		font-size:140%;
-	}
-	div.baseitem{
-		font-size:19px;
-	}
-	div.baseitem span{
-		display:block;
-		font-size:80%;
-	}
-	.loadmore{
-		font-size:18px;
-		margin-right:-9px;
-	}
-	.post-terminal-edit-link{
-		font-size:15px;
-	}
-	.YMaps{
-		display:none;
-	}
-	.topnews{
-		font-size:14px;
-	}
-	.hgroup{
-		width:390px;
-	}
-	.a-item-last{
-		margin-right:15px;
-		display:none;
-	}
-	.a-item-alt .a-item-text{
-		width:156px;
-	}
-	.col2{
-		display:none;
-	}
-	.page,.out{
-		margin-bottom:0;
-		padding-bottom:0;
-		border-bottom:none;
-	}
-	.nav li .n-map{
-		display:none;
-	}
-	.footer{
-
-	}
-	.hgroup-sub a{
-		display:inline-block;
-		padding:3px;
-		margin-left:0;
-		margin-right:4px;
-	}
-	/* guide
-	---------------------------------------- */
-	.guide{
-		width:auto  !important;
-		position:static;
-		border-right:none;
-	}
-	.guide *{
-		height:auto  !important;
-		position:static  !important;
-	}
-	.scrollbar,.g-controls{
-		display:none  !important;
-	}
-	.g-side,.guide .scrollable {
-		width:auto  !important;
-		border-right:none;
-	}
-	.guide .scrollable {
-		height:auto  !important;
-		width:auto  !important;
-	}
-	.g-side-in {
-		width:auto;
-		-webkit-column-width: 180px; 
-		-webkit-column-gap:10px;
-		column-width: 180px; 
-		column-gap:10px;
-		width:389px;
-		padding:0 0 0 8px;
-		border-right:none;
-	}
-	.g-side-in h2{
-		padding:5px 0;
-	}
-	.guide .scrollable {
-
-	}
-	.viewport,.viewport-in,.guide .scrollable .viewport {
-		height:auto  !important;
-		overflow:visible  !important;
-		width:auto  !important;
-		position:static  !important;
-	}
-	#mapfx{
-		display:none;
-	}
-	.bottom_link{
-		position:static;
-	}
-	/* afisha
-	---------------------------------------- */
-	.at-item{
-		width:auto;
-		margin:0 0 10px 0;
-	}
-	.at-item img{
-		width:380px;
-		height:205px;
-	}
-	.afisha-caro{
-		position:static;
-		width:auto;
-	}
-	.hgroup-more{
-		position:static  !important;
-	}
-	/* news single
-	---------------------------------------- */
-	.pic-text{
-		float:none;
-		text-align:center;
-		margin:0 auto 20px auto;
-	}
-	br[clear=all]{
-		display:none;
-	}
-	.pic-text .r-pic{
-		margin:0;
-		display:block;
-		float:none;
-		width:374px;
-		height:192px;
-	}
-	.pic-text span{
-		display:block;
-		padding-right:10px;
-		padding-left:10px;
-		width:auto;
-	}
-	.out .published{
-		margin:0;
-	}
-	.MediaTraffic{
-		display:none;
-	}
-	#addcomm,#addcommr{
-		display:none;
-	}
-	.wrap-tags{
-		display:none;
-	}
-	.post-act{
-		position:static;
-	}
-	.post-share,.post-act a{
-		display:none;
-	}
-	
-	.foot_sdvig{
-		display:none  !important;
-	}
-	#maplink{
-		display:none;
-	}
-	.post-afisha-screen img{
-		width:194px;
-	}
-	.post-afisha-screen ul li{
-		margin:0;
-	}
-	.av-mid object{
-		width:380px;
-		height:213px;
-	}
-	.post-terminal-info img{
-		float:none;
-		display:block;
-		text-align:center;
-		margin:10px auto;
-	}
-	.post-terminal-info table{
-		width:100%;
-	}
-	.post-afisha-pic{
-		padding:0;
-	}
-	.footer{
-		clear:both;
-	}
-	.c-pic img{width:100% !important;} 
-	/* Скрипт задает высоту этому блоку, 
-	нужно убрать скрипт чтобы у блока была автоматическая его высота
-	пока чтобы было видно весь блок я задал это:
-	---------------------------------------- */
-	.guide{
-		height:1400px;
-	}
-	/*НО ЭТО НАДО УБРАТЬ ОЛОЛОЛО*/
-	
-	
-	.r-caro{
-		width:auto;
-		height:auto;
-	}
-	.slides{
-		width:auto;height:auto;
-		position:static;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	.cols{
-		background:none;
-		border:none;
-	}
-	.col1{
-		width:auto;
-		float:none;
-		display:block;
-	}
-	.afisha-slide {
-		width:auto;
-		float:none;
-	}
-	.a-item,.a-item-last{
-		margin-right:15px;
-	}
-	.post{
-		margin-left:0;
-	}
-}
+@media screen and (max-width: 800px) { body { width: 400px; }
+  * { -webkit-text-size-adjust: none; }
+  .header-in, .out, .topper, .news, .col1, .col2, .footer .footer-in { width: auto; float: none; display: block; }
+  .footer .footer-in { padding-top: 6px; }
+  .c { overflow: auto; }
+  .header-in { height: auto; }
+  .header { background-color: #4f5449; }
+  .header-in { overflow: hidden; }
+  .header-in h1, .header-in ul, .header-in a, .header-in li { display: inline-block; }
+  .header-in .h1 { float: none; display: block; text-align: center; width: auto; }
+  .header-in .h1 a { display: inline-block; border: none; }
+  .nav a { font-size: 15px; border: none; }
+  .header-in .nav { display: inline; }
+  .nav, .nav li { float: none; }
+  .header-in .nav li { float: none; }
+  .header-in .nav { display: block; }
+  .a-item-text h4 { font-size: 14px; }
+  center, .header .header-in .snav, .t-ass, .a-item-text p, .col2 > span, .social, #NM810, .f-copy, .footer-in .search, iframe, .search-categ, .cnav2, .cnav2 { display: none; }
+  .search-categ { display: none  !important; }
+  .f-city { float: none; text-align: left; }
+  .f-counters { position: absolute; left: -300px; }
+  .cols { background: trasparent; }
+  .a-item-text { width: 167px; }
+  /* header ---------------------------------------- */
+  .search-keyword { width: 120px; margin: 0; }
+  .search { width: 235px; margin-right: 0; }
+  .search div { display: inline; }
+  /* news content ---------------------------------------- */
+  .news-content img { width: 200px; }
+  .news-content { margin-right: 10px; }
+  .news .c { overflow: visible; }
+  .megaspecial { overflow: hidden; }
+  .news-content .c { overflow: visible  !important; }
+  .topnews { clear: both; }
+  .afisha-slide { width: auto; position: static; float: none; }
+  .a-item { display: inline-block; width: 180px; overflow: hidden; }
+  .cols { display: block; }
+  .hgroup-sub { white-space: normal; font-size: 14px !important; }
+  .spectema { font-size: 13px; }
+  .newslist-related h3 { font-size: 16px; }
+  .newslist-related .newslist-top { font-size: 14px; }
+  .s-switcher1 li a { font-size: 15px; }
+  .hgroup-sub2, p.hgroup-sub2 a { font-size: 15px  !important; }
+  .rasp .seansi td, .rasp .seansi th { font-size: 16px; }
+  .afisha-cal h2 { font-size: 19px; }
+  .post .bc { font-size: 15px; }
+  .newslist-more li { font-size: 14px; }
+  .post-terminal-info table td, .post-terminal-info table th { font-size: 140%; }
+  div.baseitem { font-size: 19px; }
+  div.baseitem span { display: block; font-size: 80%; }
+  .loadmore { font-size: 18px; margin-right: -9px; }
+  .post-terminal-edit-link { font-size: 15px; }
+  .YMaps { display: none; }
+  .topnews { font-size: 14px; }
+  .hgroup { width: 390px; }
+  .a-item-last { margin-right: 15px; display: none; }
+  .a-item-alt .a-item-text { width: 156px; }
+  .col2 { display: none; }
+  .page, .out { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+  .nav li .n-map { display: none; }
+  .hgroup-sub a { display: inline-block; padding: 3px; margin-left: 0; margin-right: 4px; }
+  /* guide ---------------------------------------- */
+  .guide { width: auto  !important; position: static; border-right: none; }
+  .guide * { height: auto  !important; position: static  !important; }
+  .scrollbar, .g-controls { display: none  !important; }
+  .g-side, .guide .scrollable { width: auto  !important; border-right: none; }
+  .guide .scrollable { height: auto  !important; width: auto  !important; }
+  .g-side-in { width: auto; -webkit-column-width: 180px; -webkit-column-gap: 10px; column-width: 180px; column-gap: 10px; width: 389px; padding: 0 0 0 8px; border-right: none; }
+  .g-side-in h2 { padding: 5px 0; }
+  .viewport, .viewport-in, .guide .scrollable .viewport { height: auto  !important; overflow: visible  !important; width: auto  !important; position: static  !important; }
+  #mapfx { display: none; }
+  .bottom_link { position: static; }
+  /* afisha ---------------------------------------- */
+  .at-item { width: auto; margin: 0 0 10px 0; }
+  .at-item img { width: 380px; height: 205px; }
+  .afisha-caro { position: static; width: auto; }
+  .hgroup-more { position: static  !important; }
+  /* news single ---------------------------------------- */
+  .pic-text { float: none; text-align: center; margin: 0 auto 20px auto; }
+  br[clear=all] { display: none; }
+  .pic-text .r-pic { margin: 0; display: block; float: none; width: 374px; height: 192px; }
+  .pic-text span { display: block; padding-right: 10px; padding-left: 10px; width: auto; }
+  .out .published { margin: 0; }
+  .MediaTraffic { display: none; }
+  #addcomm, #addcommr { display: none; }
+  .wrap-tags { display: none; }
+  .post-act { position: static; }
+  .post-share, .post-act a { display: none; }
+  .foot_sdvig { display: none  !important; }
+  #maplink { display: none; }
+  .post-afisha-screen img { width: 194px; }
+  .post-afisha-screen ul li { margin: 0; }
+  .av-mid object { width: 380px; height: 213px; }
+  .post-terminal-info img { float: none; display: block; text-align: center; margin: 10px auto; }
+  .post-terminal-info table { width: 100%; }
+  .post-afisha-pic { padding: 0; }
+  .footer { clear: both; }
+  .c-pic img { width: 100% !important; }
+  /* Скрипт задает высоту этому блоку,  нужно убрать скрипт чтобы у блока была автоматическая его высота пока чтобы было видно весь блок я задал это: ---------------------------------------- */
+  .guide { height: 1400px; }
+  /*НО ЭТО НАДО УБРАТЬ ОЛОЛОЛО*/
+  .r-caro { width: auto; height: auto; }
+  .slides { width: auto; height: auto; position: static; } }
+@media screen and (min-width: 800px) { .cols { background: none; border: none; }
+  .col1 { width: auto; float: none; display: block; }
+  .afisha-slide { width: auto; float: none; }
+  .a-item, .a-item-last { margin-right: 15px; }
+  .post { margin-left: 0; } }

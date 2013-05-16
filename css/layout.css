@@ -4,36 +4,16 @@ Site Layout Styles
 Author:   akella at http://cssing.org.ua
 Version:  30 Oct 2011
 ----------------------------------------------- */
-body{
-	text-align:center;
-	}
-.out, .footer-in,.header-in{
-	width:978px;
-	margin:0 auto;
-	text-align:left;
-	}
-	.out{
-		width:980px;
-		}
-	.cols{
-		border-top:1px solid #ccc;
-		background:url(../i/dot.png) repeat-y 659px 0;
-		width:100%;
-        display:table;
-		}
-		.col2{
-			width:300px;
-			float:right;
-			margin-right:9px;
-			display:inline;
-			}
-		.col1{
-			float:left;
-			display:inline;
-			width:649px;
-			margin-left:9px;
-			}
-		.col-menu{
-            display: table-caption;
-            margin-left:9px;
-		}
+body { text-align: center; }
+
+.out, .footer-in, .header-in { width: 978px; margin: 0 auto; text-align: left; }
+
+.out { width: 980px; }
+
+.cols { border-top: 1px solid #ccc; background: url('data:"image/png";base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFzMzMAAAA0zMzZAAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==') repeat-y 659px 0; width: 100%; display: table; }
+
+.col2 { width: 300px; float: right; margin-right: 9px; display: inline; }
+
+.col1 { float: left; display: inline; width: 649px; margin-left: 9px; }
+
+.col-menu { display: table-caption; margin-left: 9px; }
