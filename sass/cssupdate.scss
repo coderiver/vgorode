@@ -508,6 +508,29 @@
 	h1{
 		text-align: center;
 	}
+	.switch{
+ 		width: 13px; 
+ 		height: 13px; 
+ 		display: block;
+ 		position: relative;
+ 		input[type="checkbox"]{
+ 			opacity: 0;
+ 		}
+ 		input[type="checkbox"] + span{
+ 			position: absolute;
+ 			left: 0;
+ 		    top: 0;
+ 		    margin: 2px;
+ 		    box-sizing: border-box;
+ 			width: 9px;
+ 			height: 9px;
+ 			border: 1px solid #ccc;
+ 			background: #fff;
+		}
+		input[type="checkbox"]:checked + span{
+			background: url(../i/checked.png) 1px 1px no-repeat;
+		}
+	}
 	.mapping__map{
 		position: relative;
 		.l-mapping__popup{
