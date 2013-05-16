@@ -137,8 +137,8 @@
 .mapping { margin-bottom: 40px; z-index: 1; }
 .mapping h1 { text-align: center; }
 .mapping .switch { width: 13px; height: 13px; display: block; position: relative; }
-.mapping .switch input[type="checkbox"] { opacity: 0; }
-.mapping .switch input[type="checkbox"] + span { position: absolute; left: 0; top: 0; margin: 2px; box-sizing: border-box; width: 9px; height: 9px; border: 1px solid #ccc; background: #fff; }
+.mapping .switch input[type="checkbox"] { position: absolute; top: 0px; left: 0px; opacity: 0; z-index: 2; }
+.mapping .switch input[type="checkbox"] + span { position: absolute; left: 2px; top: 2px; box-sizing: border-box; width: 9px; height: 9px; border: 1px solid #ccc; -webkit-border-radius: 1px; -moz-border-radius: 1px; -ms-border-radius: 1px; -o-border-radius: 1px; border-radius: 1px; background: #fff; }
 .mapping .switch input[type="checkbox"]:checked + span { background: url(../i/checked.png) 1px 1px no-repeat; }
 .mapping .mapping__map { position: relative; }
 .mapping .mapping__map .l-mapping__popup { position: absolute; top: 369px; left: 514px; }

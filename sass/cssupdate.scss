@@ -514,17 +514,21 @@
  		display: block;
  		position: relative;
  		input[type="checkbox"]{
+ 			position: absolute;
+ 			top: 0px;
+ 			left: 0px;
  			opacity: 0;
+ 			z-index: 2;
  		}
  		input[type="checkbox"] + span{
  			position: absolute;
- 			left: 0;
- 		    top: 0;
- 		    margin: 2px;
+ 			left: 2px;
+ 		    top: 2px;
  		    box-sizing: border-box;
  			width: 9px;
  			height: 9px;
  			border: 1px solid #ccc;
+ 			@include border-radius(1px);
  			background: #fff;
 		}
 		input[type="checkbox"]:checked + span{
